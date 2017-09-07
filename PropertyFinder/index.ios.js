@@ -13,12 +13,7 @@ import {
   View,
   NavigatorIOS
 } from 'react-native';
-
-export default class SearchPage extends Component {
-  render() {
-    return <Text style={styles.description}>Search for houses to buy!</Text>;
-  }
-}
+import SearchPage from './SearchPage';
 
 class PropertyFinder extends Component {
   render() {
@@ -34,12 +29,6 @@ class PropertyFinder extends Component {
 }
 
 const styles = StyleSheet.create({
-  description: {
-    fontSize: 18,
-    textAlign: 'center',
-    color: '#656565',
-    marginTop: 65,
-  },
   container: {
     flex: 1
   }
